@@ -1,4 +1,4 @@
-package com.nucandroid.entend;
+package comnucandroidentend;
 
 public class Main {
     public static void main(String[] args){

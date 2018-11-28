@@ -1,6 +1,6 @@
-package com.nucandroid.entend;
+package comnucandroidentend;
 
-public class Employee extends com.nucandroid.entend.Person { // 员工
+public class Employee extends Person { // 员工
     private int salary;
 
     public Employee(String name, int sex, int salary) {

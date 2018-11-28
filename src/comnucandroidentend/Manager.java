@@ -1,4 +1,4 @@
-package com.nucandroid.entend;
+package comnucandroidentend;
 
 public class Manager extends Employee{
     private int bonus;

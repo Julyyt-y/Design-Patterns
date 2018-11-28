@@ -1,4 +1,4 @@
-package com.nucandroid.entend;
+package comnucandroidentend;
 
 public abstract class Person {
     private String name;

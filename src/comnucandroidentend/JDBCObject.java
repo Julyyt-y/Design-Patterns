@@ -1,4 +1,4 @@
-package com.nucandroid.entend;
+package comnucandroidentend;
 
 import okhttp3.Response;
 import week01.extendandinterface.JDBCHelper;

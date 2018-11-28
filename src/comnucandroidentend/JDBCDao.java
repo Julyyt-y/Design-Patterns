@@ -1,4 +1,4 @@
-package com.nucandroid.entend;
+package comnucandroidentend;
 
 //自定义接口
 public class JDBCDao {
