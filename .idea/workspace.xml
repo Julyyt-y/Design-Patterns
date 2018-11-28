@@ -2,27 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afdbc87f-9ae5-4b42-ac2e-9b9f58b7c1ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factorymethodparttern/Factory.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/com/nucandroid/entend/Employee.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/com/nucandroid/entend/JDBCDao$SavaListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/com/nucandroid/entend/JDBCDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/com/nucandroid/entend/JDBCObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/com/nucandroid/entend/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/com/nucandroid/entend/Manager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/com/nucandroid/entend/Person.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/com/nucandroid/entend/ResponseHander.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week01/extendandinterface/JDBCHelper.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/singleton/method/pattern/Other.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/singleton/method/pattern/Other.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/singleton/method/pattern/SingletonExtension.class" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/singleton/method/pattern/SingletonExtension.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/singleton/method/pattern/Singleton.java" afterPath="$PROJECT_DIR$/src/singleton/method/pattern/Singleton.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/nucandroid/entend/Employee.java" afterPath="$PROJECT_DIR$/src/comnucandroidentend/Employee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/nucandroid/entend/JDBCDao.java" afterPath="$PROJECT_DIR$/src/comnucandroidentend/JDBCDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/nucandroid/entend/JDBCObject.java" afterPath="$PROJECT_DIR$/src/comnucandroidentend/JDBCObject.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/nucandroid/entend/Main.java" afterPath="$PROJECT_DIR$/src/comnucandroidentend/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/nucandroid/entend/Manager.java" afterPath="$PROJECT_DIR$/src/comnucandroidentend/Manager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/nucandroid/entend/Person.java" afterPath="$PROJECT_DIR$/src/comnucandroidentend/Person.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/nucandroid/entend/ResponseHander.java" afterPath="$PROJECT_DIR$/src/comnucandroidentend/ResponseHander.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/singleton/method/pattern/Other.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/singleton/method/pattern/Singleton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/singleton/method/pattern/SingletonExtension.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/singleton/method/pattern/SingletonThreads.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/singleton/method/pattern/StaticInnerClassSingleton$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/singleton/method/pattern/StaticInnerClassSingleton$Holder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPatterns/singleton/method/pattern/StaticInnerClassSingleton.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/comnucandroidentend/Employee.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/comnucandroidentend/JDBCDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/comnucandroidentend/JDBCObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/comnucandroidentend/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/comnucandroidentend/Manager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/comnucandroidentend/Person.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/comnucandroidentend/ResponseHander.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/singleton/method/pattern/Singleton.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/singleton/method/pattern/SingletonExtension.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/singleton/method/pattern/SingletonThreads.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/singleton/method/pattern/StaticInnerClassSingleton.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,17 +34,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/singleton/method/pattern/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Factory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Factory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/factorymethodparttern/Factory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -57,37 +44,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StaticInnerClassSingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/singleton/method/pattern/StaticInnerClassSingleton.java">
+      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/singletonmethodparttern/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="870">
+              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SingletonExtension.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/singleton/method/pattern/SingletonExtension.java">
+        <entry file="file://$PROJECT_DIR$/src/singletonmethodparttern/SingletonExtension.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="SingletonThreads.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/singleton/method/pattern/SingletonThreads.java">
+        <entry file="file://$PROJECT_DIR$/src/singletonmethodparttern/SingletonThreads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+            <state relative-caret-position="360">
+              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticInnerClassSingleton.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/singletonmethodparttern/StaticInnerClassSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -131,6 +122,11 @@
         <option value="$PROJECT_DIR$/src/singleton/method/pattern/StaticInnerClassSingleton.java" />
         <option value="$PROJECT_DIR$/src/singleton/method/pattern/SingletonExtension.java" />
         <option value="$PROJECT_DIR$/src/singleton/method/pattern/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/comnucandroidentend/JDBCObject.java" />
+        <option value="$PROJECT_DIR$/src/singletonmethodparttern/StaticInnerClassSingleton.java" />
+        <option value="$PROJECT_DIR$/src/singletonmethodparttern/SingletonExtension.java" />
+        <option value="$PROJECT_DIR$/src/singletonmethodparttern/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/singletonmethodparttern/SingletonThreads.java" />
       </list>
     </option>
   </component>
@@ -140,7 +136,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-112" />
     <option name="width" value="968" />
     <option name="height" value="1030" />
@@ -192,6 +188,12 @@
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="singletonmethodparttern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,11 +370,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -383,7 +385,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14974293" sideWeight="0.49526387" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14974293" sideWeight="0.49526387" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -395,7 +397,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -440,13 +441,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -454,9 +449,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -544,16 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/comnucandroidentend/JDBCObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/singleton/method/pattern/Singleton1.java" />
     <entry file="file://$PROJECT_DIR$/out/production/DesignPatterns/singleton/method/pattern/Singleton.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -582,13 +565,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -612,6 +589,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comnucandroidentend/JDBCObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singletonmethodparttern/SingletonExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singletonmethodparttern/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singletonmethodparttern/SingletonThreads.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singletonmethodparttern/StaticInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>

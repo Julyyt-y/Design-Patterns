@@ -1,6 +1,4 @@
-package singleton.method.pattern;
-
-/**
+package singletonmethodparttern; /**
  * 单例设计模式：
  * 1、类中只能有一个实例，通过new关键字来实例化；
  * 2、将构造函数私有化（禁止外部创建对象）；

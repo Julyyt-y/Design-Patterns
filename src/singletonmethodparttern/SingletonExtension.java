@@ -1,4 +1,4 @@
-package singleton.method.pattern;
+package singletonmethodparttern;
 
 import java.util.ArrayList;
 import java.util.Random;
