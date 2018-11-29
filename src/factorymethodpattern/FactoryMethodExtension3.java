@@ -9,6 +9,8 @@ import java.lang.reflect.Constructor;
  * 具体实现：
  * 获得类构造器，设置访问权限（私有），生成一个对象，然后提供方外部访问，保证内存中对象唯一；
  *
+ * 【注】：为了演示方便（还有就是不报红）下面各个类都不是public方法，
+ *         但具体使用时下面各个类应分别写成.java文件，并且都是public的。
  */
 
 class Singleton{
