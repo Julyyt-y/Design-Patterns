@@ -10,12 +10,12 @@ public class Client {
         System.out.println("——————制造货物A——————");
         GoodsA goodsA = factory.createGoods(GoodsA.class);
         goodsA.getColor();
-        goodsA.weignt();
+        goodsA.weight();
         //制造第二种货物
         System.out.println("——————制造货物B——————");
         GoodsB goodsB = factory.createGoods(GoodsB.class);
         goodsB.getColor();
-        goodsB.weignt();
+        goodsB.weight();
 
     }
 }

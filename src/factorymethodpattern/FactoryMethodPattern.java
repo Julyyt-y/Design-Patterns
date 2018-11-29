@@ -25,62 +25,62 @@ package factorymethodpattern;
  * 该通用代码是一个比较实用、易扩展的框架，可根据实际情况进行扩展。
  *
  * 【注】：此处只是为了展示工厂方法模式而将这些类放在一个.java文件中的，
- *         把下面几个类都写在单独的.java文件中就不会报红。
+ *         把下面几个类都变成.java文件就不会报红，
  */
 public class FactoryMethodPattern {
 }
 
-//抽象产品类：
-public abstract class Product{
-    //产品类的公共方法
-    public void method1(){
-        //业务逻辑处理
-    }
-    //抽象方法
-    public abstract void method2();
-}
-
-//具体产品类。具体产品类可以有多个，都继承于抽象产品类
-public class ConcreteProduct1 extends Product{
-    public void method2(){
-        //业务逻辑处理
-    }
-}
-public class ConcreteProduct2 extends Product{
-    public void method2(){
-        //业务逻辑处理
-    }
-}
-
-//抽象工厂类
-public abstract class Creator{
-    /**
-     * 创建一个产品对象，其输入参数类型可以自行设置；
-     * 通常为String、Enume、Class等，当然也可以为空。
-     */
-    public abstract <T extends Product> T createProduct(Class<T> c);
-}
-
-//具体工厂类。具体工厂类负责实现具体如何生产一个产品的对象
-public class ConcreteCreater extends Creator {
-    public <T extends Product> T createProduct(Class<T> c){
-        Product product = null;
-        try {
-            product = (Product)Class.forName(c.getName()).newInstance();
-        }catch (Exception e){
-            //异常处理
-        }
-        return (T)product;
-    }
-}
-
-//场景类
-public class Client {
-    public static void main(String[] args){
-        Creator creator = new ConcreteCreater();
-        Product product = creator.createProduct(ConcreteProduct1.class);
-        /**
-         * 继续业务处理
-         */
-    }
-}
+////抽象产品类：
+//public abstract class Product{
+//    //产品类的公共方法
+//    public void method1(){
+//        //业务逻辑处理
+//    }
+//    //抽象方法
+//    public abstract void method2();
+//}
+//
+////具体产品类。具体产品类可以有多个，都继承于抽象产品类
+//public class ConcreteProduct1 extends Product{
+//    public void method2(){
+//        //业务逻辑处理
+//    }
+//}
+//public class ConcreteProduct2 extends Product{
+//    public void method2(){
+//        //业务逻辑处理
+//    }
+//}
+//
+////抽象工厂类
+//public abstract class Creator{
+//    /**
+//     * 创建一个产品对象，其输入参数类型可以自行设置；
+//     * 通常为String、Enume、Class等，当然也可以为空。
+//     */
+//    public abstract <T extends Product> T createProduct(Class<T> c);
+//}
+//
+////具体工厂类。具体工厂类负责实现具体如何生产一个产品的对象
+//public class ConcreteCreater extends Creator {
+//    public <T extends Product> T createProduct(Class<T> c){
+//        Product product = null;
+//        try {
+//            product = (Product)Class.forName(c.getName()).newInstance();
+//        }catch (Exception e){
+//            //异常处理
+//        }
+//        return (T)product;
+//    }
+//}
+//
+////场景类
+//public class Clientt {
+//    public static void main(String[] args){
+//        Creator creator = new ConcreteCreater();
+//        Product product = creator.createProduct(ConcreteProduct1.class);
+//        /**
+//         * 继续业务处理
+//         */
+//    }
+//}
