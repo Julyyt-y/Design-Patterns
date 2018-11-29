@@ -1,4 +1,4 @@
-package singletonmethodparttern;
+package singletonmethodpattern;
 
 /**
  * 单例模式的线程安全问题：

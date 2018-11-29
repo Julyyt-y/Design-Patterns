@@ -7,5 +7,5 @@ public interface Goods {
     public void getColor();
 
     //货物的重量
-    public void weignt();
+    public void weight();
 }

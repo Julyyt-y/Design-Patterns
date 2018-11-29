@@ -1,4 +1,4 @@
-package singletonmethodparttern;
+package singletonmethodpattern;
 
 /**
  * 单例设计模式的静态初始化：

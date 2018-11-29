@@ -9,7 +9,7 @@ public class GoodsB implements Goods {
     }
 
     @Override
-    public void weignt() {
+    public void weight() {
         System.out.println("货物B的重量是5kg");
     }
 }

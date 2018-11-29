@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afdbc87f-9ae5-4b42-ac2e-9b9f58b7c1ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factorymethodpattern/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factorymethodpattern/Factory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factorymethodpattern/FactoryMethodPattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factorymethodpattern/Goods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factorymethodpattern/GoodsA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factorymethodpattern/GoodsB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factorymethodpattern/GoodsFactory.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/factorymethodparttern/Factory.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/factorymethodpattern/FactoryMethodExtension1.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factorymethodpattern/FactoryMethodPattern.java" afterPath="$PROJECT_DIR$/src/factorymethodpattern/FactoryMethodPattern.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factorymethodpattern/Goods.java" afterPath="$PROJECT_DIR$/src/factorymethodpattern/Goods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factorymethodpattern/GoodsA.java" afterPath="$PROJECT_DIR$/src/factorymethodpattern/GoodsA.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/factorymethodpattern/GoodsB.java" afterPath="$PROJECT_DIR$/src/factorymethodpattern/GoodsB.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/singletonmethodparttern/Singleton.java" afterPath="$PROJECT_DIR$/src/singletonmethodpattern/Singleton.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/singletonmethodparttern/SingletonExtension.java" afterPath="$PROJECT_DIR$/src/singletonmethodpattern/SingletonExtension.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/singletonmethodparttern/SingletonThreads.java" afterPath="$PROJECT_DIR$/src/singletonmethodpattern/SingletonThreads.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/singletonmethodparttern/StaticInnerClassSingleton.java" afterPath="$PROJECT_DIR$/src/singletonmethodpattern/StaticInnerClassSingleton.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FactoryMethodPattern.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FactoryMethodPattern.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/FactoryMethodPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="-30">
+              <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FactoryMethodExtension1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/FactoryMethodExtension1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -55,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoodsFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/GoodsFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="90">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -68,8 +79,8 @@
       <file leaf-file-name="GoodsA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/GoodsA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="330">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="e#117#118#0" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
@@ -83,8 +94,8 @@
       <file leaf-file-name="GoodsB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/GoodsB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="330">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="e#118#119#0" expanded="true" />
                 <element signature="e#165#166#0" expanded="true" />
@@ -98,8 +109,8 @@
       <file leaf-file-name="Goods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/Goods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="270">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -154,7 +165,11 @@
         <option value="$PROJECT_DIR$/src/factorymethodparttern/GoodsFactory.java" />
         <option value="$PROJECT_DIR$/src/factorymethodparttern/Client.java" />
         <option value="$PROJECT_DIR$/src/factorymethodparttern/Factory.java" />
+        <option value="$PROJECT_DIR$/src/factorymethodpattern/GoodsB.java" />
+        <option value="$PROJECT_DIR$/src/factorymethodpattern/Goods.java" />
+        <option value="$PROJECT_DIR$/src/factorymethodpattern/GoodsA.java" />
         <option value="$PROJECT_DIR$/src/factorymethodpattern/FactoryMethodPattern.java" />
+        <option value="$PROJECT_DIR$/src/factorymethodpattern/FactoryMethodExtension1.java" />
       </list>
     </option>
   </component>
@@ -216,6 +231,19 @@
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethodpattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="factorymethodpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryMethodPattern.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -417,6 +445,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -431,7 +460,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14974293" sideWeight="0.49526387" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14974293" sideWeight="0.49526387" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -639,7 +668,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/singletonmethodparttern/SingletonExtension.java">
+    <entry file="file://$PROJECT_DIR$/src/singletonmethodpattern/SingletonExtension.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -647,7 +676,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/singletonmethodparttern/Singleton.java">
+    <entry file="file://$PROJECT_DIR$/src/singletonmethodpattern/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
@@ -655,7 +684,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/singletonmethodparttern/SingletonThreads.java">
+    <entry file="file://$PROJECT_DIR$/src/singletonmethodpattern/SingletonThreads.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
@@ -663,18 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/singletonmethodparttern/StaticInnerClassSingleton.java">
+    <entry file="file://$PROJECT_DIR$/src/singletonmethodpattern/StaticInnerClassSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
           <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -687,39 +708,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/FactoryMethodPattern.java">
+    <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="450">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/GoodsA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/GoodsB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#118#119#0" expanded="true" />
             <element signature="e#165#166#0" expanded="true" />
@@ -729,10 +729,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/GoodsA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/GoodsFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="90">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/FactoryMethodExtension1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factorymethodpattern/FactoryMethodPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding />
         </state>
       </provider>
