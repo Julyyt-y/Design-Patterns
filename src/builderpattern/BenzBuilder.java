@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 /**
  * 奔驰车组装者
+ * 给定一个汽车的运行顺序，然后就返回一个奔驰车
  */
 public class BenzBuilder extends CarBuilder {
 

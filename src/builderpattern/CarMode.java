@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 /**
  * 建造者模式：批量生产汽车
+ * 车辆模型的抽象类
+ *
+ * 在子类中实现父类的基本方法，run()方法读取sequence，
+ * 然后遍历sequence中的字符串，哪个字符串在前就先执行哪个方法。
  */
 public abstract class CarMode {
     //这个参数是各个基本方法执行的顺序
@@ -35,7 +39,9 @@ public abstract class CarMode {
     }
 
     //把传递过来的值传递到类内
+    //setSequence()方法允许自己设置顺序（启动，响喇叭，引擎或停止）
     final public void setSequence(ArrayList<String> sequence){
+
         this.sequence = sequence;
     }
 }

@@ -1,5 +1,8 @@
 package builderpattern;
 
+/**
+ * 奔驰模型代码
+ */
 public class BenzMode extends CarMode{
     @Override
     protected void start() {

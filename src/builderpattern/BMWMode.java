@@ -1,10 +1,13 @@
 package builderpattern;
 
+/**
+ * 宝马模型代码
+ */
 public class BMWMode extends CarMode {
     @Override
     protected void start() {
 
-        System.out.println("宝马跑起来是这样。。。");
+        System.out.println("宝马跑起来是这样的。。。");
     }
 
     @Override
@@ -22,6 +25,6 @@ public class BMWMode extends CarMode {
     @Override
     protected void engineBoom() {
 
-        System.out.println("宝马引擎的声音");
+        System.out.println("宝马的引擎是这样的。。。");
     }
 }
