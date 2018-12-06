@@ -10,6 +10,7 @@ public class GamePlayer implements IGamePlayer {
 
     //通过构造函数传递名称
     public GamePlayer(String _name){
+
         this.name = _name;
     }
 

@@ -10,9 +10,11 @@ public class BMWBuilder extends CarBuilder {
 
     private BMWMode bmw = new BMWMode();
 
+    //此处的setSequence()方法是复写CarBuilder的方法
     @Override
     public void setSequence(ArrayList<String> sequence) {
 
+        //此处的setSequence()方法是复写CarMode的方法
         this.bmw.setSequence(sequence);
     }
 

@@ -52,7 +52,7 @@ abstract class Builder{
     //设置产品的不同部分，以获取不同的产品
     public abstract void setPart();
     //建造产品
-    public abstract Product buildproduct();
+    public abstract Product buildProduct();
 }
 
 //具体建造者
@@ -70,7 +70,7 @@ class ConcreteProduct extends Builder{
 
     //组建一个产品
     @Override
-    public Product buildproduct() {
+    public Product buildProduct() {
 
         return product;
     }
@@ -85,7 +85,7 @@ class Director1{
         /**
          * 设置不同的零件，产生不同的产品
          */
-        return builder.buildproduct();
+        return builder.buildProduct();
     }
 }
 
