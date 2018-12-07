@@ -89,6 +89,11 @@ class Proxy implements Subject{
         //do something
     }
 }
+
+//场景类
 public class ProxyPattern {
+    public static void main(String[] args){
+
+    }
 
 }
