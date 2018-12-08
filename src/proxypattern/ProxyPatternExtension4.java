@@ -11,6 +11,9 @@ import java.net.Proxy;
  *
  * invoke()方法是InvocationHandler接口定义必须实现的，它完成对真实方法的调用；
  * 动态代理是根据被代理的接口生成所有的方法。
+ *
+ * 【注】：为了演示方便（还有就是不报红）下面各个类都不是public方法，
+ *         但具体使用时下面各个类应分别写成.java文件，并且都是public的。
  */
 
 interface IGamePlayer3 {
