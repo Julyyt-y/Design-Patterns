@@ -19,7 +19,6 @@ package prototypepattern;
  * 对象的clone与对象的final关键字是有冲突的；
  * 因为final修饰的成员变量不允许被深拷贝，
  * 但是可以被浅拷贝。
- * 
  */
 
 import java.util.ArrayList;
