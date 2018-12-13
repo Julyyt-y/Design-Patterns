@@ -14,4 +14,12 @@ public abstract class Group {
     public abstract void change();
     //被要求给出所有的变更计划
     public abstract void plan();
+
+    /**
+     * 扩展二：增加的语句
+     * 每个接收者都要对直接执行的可以进行回滚
+     */
+    public void rollBack(){
+        //根据日志进行回滚
+    }
 }

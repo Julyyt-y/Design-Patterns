@@ -12,6 +12,14 @@ public class AddRequirementCommand extends Command{
         super.rg.find();
         //增加一份需求
         super.rg.add();
+
+        /**
+         * 扩展所增加的代码
+         */
+        //页面也要增加
+        super.pg.add();
+        super.rg.add();
+
         //给出计划
         super.rg.plan();
     }
