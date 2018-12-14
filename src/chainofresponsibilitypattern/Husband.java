@@ -3,7 +3,7 @@ package chainofresponsibilitypattern;
 public class Husband extends Handler {
     //丈夫只处理妻子的请求
     public Husband(){
-        super(Handler.HUSBAND_LEVEV_REQUEST);
+        super(Handler.HUSBAND_LEVEL_REQUEST);
     }
 
     @Override
