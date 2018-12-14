@@ -18,6 +18,6 @@ class CancelDeletePageCommand extends Command{
 }
 public class PatternExtension {
     public static void main(String[] args){
-        
+
     }
 }
