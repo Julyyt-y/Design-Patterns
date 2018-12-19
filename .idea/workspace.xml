@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afdbc87f-9ae5-4b42-ac2e-9b9f58b7c1ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adapterpattern/AdapterPattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adapterpattern/Client.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adapterpattern/IOuterUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adapterpattern/IUserInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adapterpattern/OuterUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adapterpattern/OuterUserInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/adapterpattern/UserInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adapterpattern/AdapterPattern.java" afterPath="$PROJECT_DIR$/src/adapterpattern/AdapterPattern.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdapterPattern.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdapterPattern.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/adapterpattern/AdapterPattern.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="629">
+              <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuilderPattern.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/builderpattern/BuilderPattern.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -64,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OuterUser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OuterUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/adapterpattern/OuterUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,13 +164,13 @@
         <option value="$PROJECT_DIR$/src/strategypattern/StrategyPatternExtension.java" />
         <option value="$PROJECT_DIR$/src/strategypattern/StrategyPatternExtension1.java" />
         <option value="$PROJECT_DIR$/src/strategypattern/StrategyPatternExtension2.java" />
-        <option value="$PROJECT_DIR$/src/adapterpattern/AdapterPattern.java" />
         <option value="$PROJECT_DIR$/src/adapterpattern/IUserInfo.java" />
         <option value="$PROJECT_DIR$/src/adapterpattern/UserInfo.java" />
         <option value="$PROJECT_DIR$/src/adapterpattern/IOutUser.java" />
         <option value="$PROJECT_DIR$/src/adapterpattern/Client.java" />
         <option value="$PROJECT_DIR$/src/adapterpattern/OuterUserInfo.java" />
         <option value="$PROJECT_DIR$/src/adapterpattern/OuterUser.java" />
+        <option value="$PROJECT_DIR$/src/adapterpattern/AdapterPattern.java" />
       </list>
     </option>
   </component>
@@ -233,6 +236,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="adapterpattern" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="builderpattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="builderpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="BuilderPattern.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -269,15 +285,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.AdapterPattern">
+    <configuration name="AdapterPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="adapterpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="adapterpattern.Client" />
+      <option name="MAIN_CLASS_NAME" value="adapterpattern.AdapterPattern" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -289,14 +305,14 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="strategypattern.*" />
+          <option name="PATTERN" value="adapterpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="strategypattern.Client" />
+      <option name="MAIN_CLASS_NAME" value="adapterpattern.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -447,19 +463,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StrategyPattern" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StrategyPatternExtension" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StrategyPatternExtension2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Client (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StrategyPattern" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StrategyPatternExtension" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StrategyPatternExtension2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Client (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AdapterPattern" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Client (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.StrategyPatternExtension2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StrategyPatternExtension" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StrategyPattern" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AdapterPattern" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Client (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StrategyPatternExtension2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StrategyPatternExtension" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StrategyPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -521,13 +537,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/builderpattern/BuilderPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mediatorpattern/Purchase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
@@ -826,14 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapterpattern/AdapterPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/adapterpattern/IUserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -877,10 +878,26 @@
     <entry file="file://$PROJECT_DIR$/src/adapterpattern/OuterUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builderpattern/BuilderPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapterpattern/AdapterPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
