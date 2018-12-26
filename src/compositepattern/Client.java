@@ -15,6 +15,19 @@ public class Client {
         System.out.println(getTreeInfo(ceo));
     }
 
+    //把整棵树组装出来
+    public static String getTreeInfo(Branch root){
+        ArrayList<Node> subordinateList = root.getSubordinate();
+        String info = "";
+        for (Node n : subordinateList){
+            if (n instanceof Leaf){
+                info = info + n.getInfo() + "\n";
+            }else {
+                info = info + n.getInfo() + "\n" + getTreeInfo((Branch)n);
+            }
+        }
+        return info;
+    }
     //把整个树组装出来
     public static Branch compositeNodeTree(){
         //总经理ceo（根结点）
@@ -65,19 +78,5 @@ public class Client {
         financeDep.addSubordinate(i);
         financeDep.addSubordinate(j);
         return root;
-    }
-
-    //从根结点开始遍历所有结点
-    public static String getTreeInfo(Branch root){
-        ArrayList<Root> subordinateList = root.getSubordinate();
-        String info = "";
-        for (Root n : subordinateList){
-            if (n instanceof Leaf){
-                info = info + n.getInfo() + "\n";
-            }else {
-                info = info + n.getInfo() + "\n" + getTreeInfo((Branch)n);
-            }
-        }
-        return info;
     }
 }
