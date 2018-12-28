@@ -14,11 +14,14 @@ public class Branch extends Node {
     }
     //增加一个下属（结点），可能是叶子结点也可能不是叶子结点
     public void addSubordinate(Node node) {
+        //设置父结点
+        node.setParent(this);
         this.subordinateList.add(node);
     }
 
-    //获得某一经理的所有子孙结点
+    //获得某一经理的所有子孙结点（下属）
     public ArrayList<Node> getSubordinate() {
+
         return this.subordinateList;
     }
 
