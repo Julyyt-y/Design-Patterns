@@ -5,15 +5,6 @@ package observerpattern;
  * 间谍的职责是观察被观察者，然后汇报给观察者
  */
 public class Spy implements Observer{
-    private Observed observed;
-    private Observer observer;
-    private String type;
-    //通过构造函数传递参数（监控者，被监控者，监控他干什么）
-    public Spy(Observed _observed,Observer _observer,String _type){
-        this.observed = _observed;
-        this.observer = _observer;
-        this.type = _type;
-    }
 
     @Override
     public void update(String context) {
