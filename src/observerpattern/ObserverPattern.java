@@ -53,7 +53,7 @@ abstract class Subject{
 }
 
 //具体被观察者
-class ConcreteSubject extends Subject{
+class ConcreteSubject extends Subject {
     //具体的业务
     public void doSomething(){
         System.out.println("doSomething");
@@ -68,7 +68,7 @@ interface Observer0{
 }
 
 //具体观察者
-class ConcreteObserver implements Observer0{
+class ConcreteObserver implements Observer0 {
 
     //实现更新方法
     @Override

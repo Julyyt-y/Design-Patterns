@@ -1,0 +1,15 @@
+package facadepattern;
+
+/**
+ * 写信过程接口
+ */
+public interface ILetterProcess {
+    //首先要写信的内容
+    public void writeContext(String context);
+    //其次写信封
+    public void fillEnvelope(String address);
+    //把信放到信封里
+    public void letterIntoEnvelope();
+    //然后邮寄
+    public void sendLetter();
+}

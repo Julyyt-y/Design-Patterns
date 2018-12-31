@@ -1,5 +1,7 @@
 package observerpattern;
 
+import observerpattern.Observer;
+
 /**
  * 通用的被观察者接口，管理所有被观察者
  */

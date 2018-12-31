@@ -1,5 +1,8 @@
 package observerpattern;
 
+import observerpattern.Observed;
+import observerpattern.Observer1;
+
 /**
  * 场景类
  */
