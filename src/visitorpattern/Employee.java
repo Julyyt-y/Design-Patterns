@@ -33,15 +33,18 @@ public abstract class Employee {
     public void setSex(int sex) {
         this.sex = sex;
     }
-    //打印员工信息
-    public final void report(){
-        String info = "姓名" + this.name + "\t";
-        info = info + "性别" + (this.sex == FEMALE ? "女":"男") + "\t";
-        info = info + "薪水" + this.salary + "\t";
-        //获得员工信息
-        info = info + this.getOtherInfo();
-        System.out.println(info);
-    }
-    //拼装员工的其它信息
-    protected abstract String getOtherInfo();
+//    //打印员工信息
+//    public final void report(){
+//        String info = "姓名" + this.name + "\t";
+//        info = info + "性别" + (this.sex == FEMALE ? "女":"男") + "\t";
+//        info = info + "薪水" + this.salary + "\t";
+//        //获得员工信息
+//        info = info + this.getOtherInfo();
+//        System.out.println(info);
+//    }
+//    //拼装员工的其它信息
+//    protected abstract String getOtherInfo();
+
+    //允许一个访问者访问
+    public abstract void accept(IVisitor visitor);
 }

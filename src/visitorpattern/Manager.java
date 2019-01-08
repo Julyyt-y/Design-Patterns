@@ -15,8 +15,13 @@ public class Manager extends Employee{
         this.performance = performance;
     }
 
+//    @Override
+//    protected String getOtherInfo() {
+//        return "业绩" + this.performance + "\t";
+//    }
+
     @Override
-    protected String getOtherInfo() {
-        return "业绩" + this.performance + "\t";
+    public void accept(IVisitor visitor) {
+        visitor.visit(this);
     }
 }
