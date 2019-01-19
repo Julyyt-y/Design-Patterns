@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afdbc87f-9ae5-4b42-ac2e-9b9f58b7c1ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interpreterpattern/InterpreterPattern.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interpreterpattern/AddExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interpreterpattern/Calculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interpreterpattern/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interpreterpattern/Expression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interpreterpattern/SubExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interpreterpattern/SymbolExpression.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/interpreterpattern/VarExpression.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/statepattern/StatePattern.java" afterPath="$PROJECT_DIR$/src/statepattern/StatePattern.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/interpreterpattern/InterpreterPattern.java" afterPath="$PROJECT_DIR$/src/interpreterpattern/InterpreterPattern.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,124 +25,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="StatePattern.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/statepattern/StatePattern.java">
+      <file leaf-file-name="Expression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interpreterpattern/Expression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="0">
+              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VarExpression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interpreterpattern/VarExpression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
               <folding>
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#1504#1505#0" expanded="true" />
-                <element signature="e#1539#1540#0" expanded="true" />
-                <element signature="e#1752#1753#0" expanded="true" />
-                <element signature="e#1795#1796#0" expanded="true" />
-                <element signature="e#1822#1823#0" expanded="true" />
-                <element signature="e#1865#1866#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InterpreterPattern.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/interpreterpattern/InterpreterPattern.java">
+      <file leaf-file-name="SymbolExpression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interpreterpattern/SymbolExpression.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ILift.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/statepattern/ILift.java">
+      <file leaf-file-name="AddExpression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interpreterpattern/AddExpression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/statepattern/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LiftState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/statepattern/LiftState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="520">
+              <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding>
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OpeningState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/statepattern/OpeningState.java">
+      <file leaf-file-name="SubExpression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interpreterpattern/SubExpression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/statepattern/Context.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="414">
+              <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
               <folding>
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClosingState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/statepattern/ClosingState.java">
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interpreterpattern/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunningState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/statepattern/RunningState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="654">
+              <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
               <folding>
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1314#1315#0" expanded="true" />
+                <element signature="e#1369#1370#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StoppingState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/statepattern/StoppingState.java">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/interpreterpattern/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="-746">
+              <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding>
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,13 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/observerpattern/theObserved.java" />
-        <option value="$PROJECT_DIR$/src/observerpattern/TheIObserved.java" />
-        <option value="$PROJECT_DIR$/src/observerpattern/TheObserved.java" />
-        <option value="$PROJECT_DIR$/src/observerpattern/IObserved.java" />
-        <option value="$PROJECT_DIR$/src/observerpattern/IObserver.java" />
-        <option value="$PROJECT_DIR$/src/observerpattern/Observer.java" />
-        <option value="$PROJECT_DIR$/src/observerpattern/Observer1.java" />
         <option value="$PROJECT_DIR$/src/observerpattern/Client.java" />
         <option value="$PROJECT_DIR$/src/observerpattern/Observed.java" />
         <option value="$PROJECT_DIR$/src/observerpattern/Spy.java" />
@@ -214,6 +177,13 @@
         <option value="$PROJECT_DIR$/src/statepattern/Context.java" />
         <option value="$PROJECT_DIR$/src/statepattern/StatePattern.java" />
         <option value="$PROJECT_DIR$/src/interpreterpattern/InterpreterPattern.java" />
+        <option value="$PROJECT_DIR$/src/interpreterpattern/SymbolExpression.java" />
+        <option value="$PROJECT_DIR$/src/interpreterpattern/VarExpression.java" />
+        <option value="$PROJECT_DIR$/src/interpreterpattern/Expression.java" />
+        <option value="$PROJECT_DIR$/src/interpreterpattern/AddExpression.java" />
+        <option value="$PROJECT_DIR$/src/interpreterpattern/SubExpression.java" />
+        <option value="$PROJECT_DIR$/src/interpreterpattern/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/interpreterpattern/Client.java" />
       </list>
     </option>
   </component>
@@ -224,10 +194,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1873" />
-    <option name="y" value="68" />
-    <option name="width" value="1615" />
-    <option name="height" value="873" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -261,6 +231,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,13 +246,16 @@
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreterpattern" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -310,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StatePattern">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Cilent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -349,14 +325,14 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="StatePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="statepattern.*" />
+          <option name="PATTERN" value="interpreterpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="statepattern.StatePattern" />
+      <option name="MAIN_CLASS_NAME" value="interpreterpattern.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -368,14 +344,14 @@
       <module name="DesignPatterns" />
       <envs />
     </configuration>
-    <configuration name="VisitorPatternExtension1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StatePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="visitorpattern.*" />
+          <option name="PATTERN" value="statepattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="visitorpattern.VisitorPatternExtension1" />
+      <option name="MAIN_CLASS_NAME" value="statepattern.StatePattern" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -488,19 +464,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.VisitorPatternExtension1" />
-      <item index="1" class="java.lang.String" itemvalue="Application.VisitorPatternExtension2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Cilent" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Client (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StatePattern" />
+      <item index="0" class="java.lang.String" itemvalue="Application.VisitorPatternExtension2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Cilent" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Client (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StatePattern" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StatePattern" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Client (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Cilent" />
-        <item index="3" class="java.lang.String" itemvalue="Application.VisitorPatternExtension2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.VisitorPatternExtension1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StatePattern" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Client (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Cilent" />
+        <item index="4" class="java.lang.String" itemvalue="Application.VisitorPatternExtension2" />
       </list>
     </recent_temporary>
   </component>
@@ -521,7 +497,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1929" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -529,16 +506,16 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41050118" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41148886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2672919" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2672919" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16468683" sideWeight="0.49526387" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1673866" sideWeight="0.49526387" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25321338" sideWeight="0.5047361" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25321338" sideWeight="0.5047361" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -564,50 +541,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/observerpattern/IObserver.java" />
-    <entry file="file://$PROJECT_DIR$/src/observerpattern/ObserverPatternExtension.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="953" column="19" lean-forward="true" selection-start-line="953" selection-start-column="19" selection-end-line="953" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observerpattern/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observerpattern/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observerpattern/Spy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observerpattern/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/observerpattern/Observer1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -824,34 +757,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4240">
           <caret line="115" column="30" lean-forward="false" selection-start-line="114" selection-start-column="35" selection-end-line="116" selection-end-column="5" />
-          <folding>
-            <element signature="e#151#152#0" expanded="false" />
-            <element signature="e#185#186#0" expanded="false" />
-            <element signature="e#2746#2747#0" expanded="false" />
-            <element signature="e#2792#2793#0" expanded="false" />
-            <element signature="e#2853#2854#0" expanded="false" />
-            <element signature="e#2899#2900#0" expanded="false" />
-            <element signature="e#2959#2960#0" expanded="false" />
-            <element signature="e#3004#3005#0" expanded="false" />
-            <element signature="e#3065#3066#0" expanded="false" />
-            <element signature="e#3110#3111#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/statepattern/StatePattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="600">
           <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1539#1540#0" expanded="true" />
-            <element signature="e#1752#1753#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1865#1866#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="false" />
+            <element signature="e#609#610#0" expanded="false" />
+            <element signature="e#1504#1505#0" expanded="false" />
+            <element signature="e#1539#1540#0" expanded="false" />
+            <element signature="e#1752#1753#0" expanded="false" />
+            <element signature="e#1795#1796#0" expanded="false" />
+            <element signature="e#1822#1823#0" expanded="false" />
+            <element signature="e#1865#1866#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -864,21 +785,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/statepattern/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/statepattern/LiftState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="false" />
+            <element signature="e#222#223#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -896,10 +809,10 @@
         <state relative-caret-position="640">
           <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="false" />
+            <element signature="e#472#473#0" expanded="false" />
+            <element signature="e#631#632#0" expanded="false" />
+            <element signature="e#668#669#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -917,8 +830,8 @@
         <state relative-caret-position="560">
           <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="false" />
+            <element signature="e#353#354#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -928,17 +841,106 @@
         <state relative-caret-position="840">
           <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding>
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="false" />
+            <element signature="e#561#562#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interpreterpattern/InterpreterPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="480">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/statepattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreterpattern/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreterpattern/VarExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreterpattern/SymbolExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreterpattern/AddExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreterpattern/SubExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreterpattern/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreterpattern/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-746">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
